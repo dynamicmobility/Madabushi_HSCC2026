@@ -23,8 +23,6 @@ class PrismaticWalkerTransformed():
 
     @staticmethod
     def f(t, x, u):
-        # r, th, rd, thd = x[0, :] # Hmmmm
-        # r, th, rd, thd = np.ravel(x)
 
         r, y, rd, yd = np.ravel(x)
         th = np.atan(y)
